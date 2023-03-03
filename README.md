@@ -3,7 +3,7 @@ Starter flutter template project for developers to speed up publishing of flutte
 
 ## Prerequisites
 
-- Get a playstore and appstore accounts.
+- Get Google Play and Apple Developer accounts.
 - Get key generated from playstore as a json file.
 
 ## Setup github secrets as follows
