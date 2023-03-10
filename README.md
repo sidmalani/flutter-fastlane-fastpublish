@@ -40,3 +40,7 @@ To release newer versions simply update the version in pubspec.yaml file. The fo
 ## Promote to Production
 
 The current setup releases beta track to "Internal Testing" in Playstore. From there you can simply release to production.
+  
+# iOS
+
+TBC...
