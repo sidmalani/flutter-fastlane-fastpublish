@@ -12,7 +12,7 @@ https://medium.com/scalereal/automate-publishing-app-to-the-google-play-store-wi
 - Keystore setup.
 
 
-# Android
+# Android Playstore
 
 ## First time
 
@@ -41,6 +41,6 @@ To release newer versions simply update the version in pubspec.yaml file. The fo
 
 The current setup releases beta track to "Internal Testing" in Playstore. From there you can simply release to production.
   
-# iOS
+# Apple Appstore
 
 TBC...
