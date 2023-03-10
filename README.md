@@ -1,10 +1,26 @@
 # flutter-fastlane-fastpublish
 Starter flutter template project for developers to speed up publishing of flutter projects to playstore and appstore.
 
+## Refer to this blog for some setup pointers
+
+https://medium.com/scalereal/automate-publishing-app-to-the-google-play-store-with-github-actions-fastlane-ac9104712486
+
 ## Prerequisites
 
 - Get Google Play and Apple Developer accounts.
-- Get key generated from playstore as a json file.
+- Get key generated from playstore as a json file. 
+- Keystore setup.
+
+
+# Android
+
+## First time
+
+- Ensure you create a keystore file and key.
+- Sign the aab file with the key.
+- Upload manually to playstore, create a release 0.0.1, version Number 1 in the internal testing track.
+- Once this is done future can be run via Github pipeline.
+
 
 ## Setup github secrets as follows
 
@@ -16,9 +32,11 @@ Starter flutter template project for developers to speed up publishing of flutte
 - PLAY_CONFIG_JSON - base 64 value of the contents of playstore key json file
   - ``` base64 -i play_config.json > play_config.json.b64 ```
 
-
-Please note the first aab file may have to be uploaded manually according to some blog posts. So just create a release in Playstore in internal testing and upload the ".aab" file. Mark it versionName 0.0.1 and versionNumber 1.
+## Future releases
 
 To release newer versions simply update the version in pubspec.yaml file. The format is <versionname>+<versionnumber> so increment both and publish.
+  
 
-The current setup releases beta track to "Internal Testing" in Playstore.
+## Promote to Production
+
+The current setup releases beta track to "Internal Testing" in Playstore. From there you can simply release to production.
