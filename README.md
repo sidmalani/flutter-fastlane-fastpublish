@@ -17,7 +17,7 @@ Starter flutter template project for developers to speed up publishing of flutte
   - ``` base64 -i play_config.json > play_config.json.b64 ```
 
 
-Please note the first aab file may have to be uploaded manually according to some blog posts. So just create a release in Playstore in internal testing and upload the AAB. Mark it versionName 1.0.0 and versionNumber 1.
+Please note the first aab file may have to be uploaded manually according to some blog posts. So just create a release in Playstore in internal testing and upload the ".aab" file. Mark it versionName 0.0.1 and versionNumber 1.
 
 To release newer versions simply update the version in pubspec.yaml file. The format is <versionname>+<versionnumber> so increment both and publish.
 
