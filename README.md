@@ -45,4 +45,4 @@ The current setup releases beta track to "Internal Testing" in Playstore. From t
 
 TBC...
 
-Please reportn any issues so we can keep this up to date.
+Please report any issues so we can keep this up to date.
