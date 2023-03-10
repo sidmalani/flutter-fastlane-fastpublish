@@ -15,3 +15,10 @@ Starter flutter template project for developers to speed up publishing of flutte
 - KEYSTORE_KEY_PASSWORD - key password
 - PLAY_CONFIG_JSON - base 64 value of the contents of playstore key json file
   - ``` base64 -i play_config.json > play_config.json.b64 ```
+
+
+Please note the first aab file may have to be uploaded manually according to some blog posts. So just create a release in Playstore in internal testing and upload the AAB. Mark it versionName 1.0.0 and versionNumber 1.
+
+To release newer versions simply update the version in pubspec.yaml file. The format is <versionname>+<versionnumber> so increment both and publish.
+
+The current setup releases beta track to "Internal Testing" in Playstore.
